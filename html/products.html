@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GH SPAIN</title>
+  <link rel="stylesheet" href="../css/all.css">
+  <link rel="stylesheet" href="../css/fonts.css">
+  <link rel="stylesheet" href="../css/products.css">
+</head>
+
+<body oncontextmenu="return false;">
+  <header class="header" id="topbar">
+    <nav class="nav">
+      <ul class="left-topbar">
+        <li class="menu">
+          <input type="checkbox" id="menutoggle">
+          <label for="menutoggle" class="menubtn">
+            <span class="icon-menu"></span>
+          </label>
+          <ul class="menucontent">
+            <li><a href="../html/allGH">GH Spain</a></li>
+            <li><a href="../html/injectablesGH" class="options">Injectables</a></li>
+            <li><a href="../html/oralGH" class="options">Oral</a></li>
+            <li><a href="../html/hghGH" class="options">HGH</a></li>
+            <li><a href="../html/allDM">Deus Medical</a></li>
+            <li><a href="../html/injectablesDM" class="options">Injectables</a></li>
+            <li><a href="../html/oralDM" class="options">Oral</a></li>
+            <li><a href="../html/hghDM" class="options">HGH</a></li>
+            <li><a href="../html/pharmacy">Pharmacy</a></li>
+            <li>
+              <label for="menutoggle" class="menuclosebtn">
+                <span class="icon-undo2"></span>
+              </label>
+            </li>
+          </ul>
+          <ul class="overlay"></ul>
+        </li>
+        <li class="webname"><a href="../">GH SPAIN</a></li>
+      </ul>
+      <ul class="webnamemobile">
+        <li><a href="../">GH SPAIN</a></li>
+      </ul>
+      <ul class="right-topbar">
+        <li class="search"><button type="button" class="icon-search">&nbsp;</button></li>
+        <li class="seemode"><a class="icon-brightness-contrast">&nbsp;</a></li>
+        <li class="cart"><a href="../html/cart" class="icon-cart">&nbsp;</a></li>
+        <li class="translate"><button type="button" class="translateButton">EN</button></li>
+        <li class="menuUser">
+          <input type="checkbox" id="menutoggleuser">
+          <label for="menutoggleuser" class="icon-wrench">
+          </label>
+          <ul class="menuUsercontent" id="right-menu">
+            <li class="options2"><a href="#" class="icon-cart">&nbsp;</a></li>
+            <li class="options2"><button type="button" class="icon-search">&nbsp;</button></li>
+            <li class="options2"><button type="button" class="translateButton">EN</button></li>
+            <li class="options2"><a href="#" class="icon-brightness-contrast">&nbsp;</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="webcontainers">
+    <section class="searchboxcontainer">
+      <div class="searchbar">
+        <input type="text" class="searchinput" placeholder="&#128270; Search product">
+        <button type="button" class="searchsubmit">Search</button>
+      </div>
+    </section>
+    <div class="results-container">
+      <ul class="image-container"></ul>
+    </div>
+    <section class="product-container">
+      <div class="product">
+        <div class="image">
+          <div id="product-image"></div>
+          <div class="thumbnails-container">
+            <div class="thumbnail" id="thumbnail-1"></div>
+            <div class="thumbnail" id="thumbnail-2"></div>
+            <div class="thumbnail" id="thumbnail-3"></div>
+          </div>
+        </div>
+        <div class="description">
+          <h1 id="product-title">Title</h1>
+          <p id="product-description"></p><br>
+          <b data-translate="Dose">Dose</b>
+          <p id="product-dose"></p><br>
+          <h2 data-translate="Price">Price</h2>
+          <b id="product-price"></b><b>€</b>
+          <br><br>
+          <select id="optionSelect">
+            <option value="" disabled selected data-translate="Payment method:">Payment method:</option>
+            <option value="addtocart" data-translate="Add to cart">Add to cart</option>
+            <option value="cryptocurrencies" data-translate="Cryptocurrencies">Cryptocurrencies</option>
+            <option value="bank" data-translate="Bank account">Bank account</option>
+          </select>
+          <div id="addtocart" class="form-container">
+            <form action="#" method="post">
+              <label for="quantity" data-translate="Quantity:">Quantity:</label>
+              <input type="number" name="quantity" min="1" required><br><br>
+              <button type="submit" value="Send" data-translate="Add to cart">Add to cart</button><span>&nbsp;Click on cart to buy later</span>
+            </form>
+          </div>
+          <div id="cryptocurrencies" class="form-container">
+            <form action="../php/send.php" method="post">
+              <select>
+                <option value="" disabled selected>Cryptocurrency:</option>
+                <option>Bitcoin</option>
+                <option>Ethereum</option>
+                <option>Dogecoin</option>
+                <option>Other</option>
+              </select><br><br>
+              <label for="quantity" data-translate="Quantity:">Quantity:</label>
+              <input type="number" name="quantity" min="1" required><br><br>
+              <label for="email">Email:</label>
+              <input type="email" name="email" required><br><br>
+              <label for="number">Phone number:</label>
+              <input type="text" name="number" required><br><br>
+              <label for="address" data-translate="Shipping Address:">Shipping Address:</label>
+              <input type="text" name="address" required><br><br>
+              <label for="telegramid">Telegram ID: (Optional)</label>
+              <input type="text" name="telegramid"><br><br>
+              <label for="info" data-translate="More info: (Optional)">More info: (Optional)</label><br>
+              <textarea name="info" rows="4" cols="50"></textarea><br><br>
+              <button type="submit" value="Send" data-translate="Buy now">Buy now</button><span>&nbsp;We will send the code to make the payment by
+                bitcoin</span>
+            </form>
+          </div>
+          <div id="bank" class="form-container">
+            <form action="../php/send.php" method="post">
+              <label for="quantity" data-translate="Quantity:">Quantity:</label>
+              <input type="number" name="quantity" min="1" required><br><br>
+              <label for="email">Email:</label>
+              <input type="email" name="email" required><br><br>
+              <label for="phone">Phone number:</label>
+              <input type="text" name="phone" required><br><br>
+              <label for="address" data-translate="Shipping Address:">Shipping Address:</label>
+              <input type="text" name="address" required><br><br>
+              <label for="telegramid">Telegram ID: (Optional)</label>
+              <input type="text" name="telegramid"><br><br>
+              <label for="info" data-translate="More info: (Optional)">More info: (Optional)</label><br>
+              <textarea name="info" rows="4" cols="50"></textarea><br><br>
+              <button type="submit" value="Send" data-translate="Buy now">Buy now</button><span>&nbsp;We will send the code to make the payment by
+                bank
+                account</span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner">
+      <ul>
+        <li><img src="../images/ghspain.png" alt="logoquality" id="logobanner"></li>
+        <li>"<b data-translate="Beyond Genetics">Beyond Genetics</b>"</li>
+      </ul>
+    </section>
+    <section class="products">
+      <h1 data-translate="Other products">Other products</h1>
+      <div class="products-list" id="injectablesGH-list"></div>
+    </section>
+  </main><br>
+  <footer class="footer" id="about">
+    <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
+      <path class="footer-wave-path"
+        d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z">
+      </path>
+    </svg>
+    <div class="footer-content">
+      <ul class="footer-content-info">
+        <li class="logofooter"><img src="../images/ghspain.png" alt="logo" class="logo"></li>
+        <li class="sections-footer"><b data-translate="Contact with us:">Contact with us:</b>
+          <ul>
+            <li>
+              <p class="social"><a href="mailto:correo@example.com" class="icon-mail"> ghspain@protonmail.com</a></p>
+              <p class="social"><a href="https://t.me/buyghspain" target="_blank" class="icon-telegram"> Telegram</a>
+              </p>
+              <p class="social"><a href="" target="_blank" class="icon-whatsapp"> Whatsapp</a></p>
+              <p class="social"><a href="" target="_blank" class="icon-signal"> Signal</a></p>
+            </li>
+          </ul>
+        </li>
+        <li class="sections-footer"><b data-translate="Secure payments:">Secure payments:</b>
+          <ul>
+            <li>
+              <p class="social"><a href="../html/cart" target="_blank" class="icon-bitcoin">
+                  Cryptocurrency</a></p>
+              <p class="social"><a href="../html/cart" target="_blank" class="icon-credit-card"> Bank</a></p>
+              <p class="social"><a href="../html/check" class="icon-qrcode"> Check
+                  Product</a></p>
+            </li>
+          </ul>
+        </li>
+        <li class="sections-footer"><b data-translate="More info:">More info:</b>
+          <ul>
+            <li>
+              <p class="social"><a href="https://t.me/ghspaininfo" target="_blank" class="icon-telegram"> Telegram
+                  Group</a></p>
+              <p class="social"><a href="../GHSPAINprices.pdf" target="_blank" class="icon-file-pdf"> Download PDF</a>
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      <a class="footer-copyright-link" href="#" target="_self" data-translate="GH SPAIN | All rights reserved ©2023">GH
+        SPAIN | All rights reserved ©2023</a>
+    </div>
+  </footer>
+  <script>
+
+  </script>
+  <script>
+
+  </script>
+  <script src="../js/seeMode.js"></script>
+  <script src="../js/scrolltopbar.js"></script>
+  <script src="../js/searchbox.js"></script>
+  <script src="../js/refillproducts.js"></script>
+  <script src="../js/productwindow.js"></script>
+  <script src="../js/translate.js"></script>
+</body>
+
+</html>

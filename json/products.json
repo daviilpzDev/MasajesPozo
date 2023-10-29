@@ -1,0 +1,545 @@
+{
+  "injectablesGH": [
+    {
+      "id": "1",
+      "title": "TESTOSTERONE SUSTANON",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "30,00",
+      "dose": "250mg/ml (10ml)",
+      "description": "Testosterone Sustanon is a popular injectable medication used for hormone replacement therapy in men with low testosterone levels. It is a combination of different testosterone esters designed to provide both immediate and long-lasting effects. This medication helps improve testosterone levels, which can lead to increased muscle mass, bone density, and energy levels, among other benefits. It is commonly prescribed by healthcare professionals to address conditions like hypogonadism. However, its use should always be under medical supervision due to potential side effects and individual health considerations."
+    },
+    {
+      "id": "2",
+      "title": "TESTOSTERONE MIX",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "32,00",
+      "dose": "350mg/ml (10ml)",
+      "description": "Description for TESTOSTERONE MIX"
+    },
+    {
+      "id": "3",
+      "title": "Testosterone Cypionate",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/TESTOMEDC250.png",
+      "hoverImage": "../images/DM/TESTOMEDC250back.png",
+      "price": "28,00",
+      "dose": "250mg/ml (10ml)",
+      "description": "TESTOMED C 250 (Testosterone Cypionate) is used in men and boys to treat conditions caused by a lack of this hormone, such as delayed puberty or growth. It is only recommended for males with a known medical condition, such as a genetic disorder, problem with certain brain structures (called the hypothalamus and pituitary) or previous chemotherapy."
+    },
+    {
+      "id": "4",
+      "title": "Testosterone Propionate",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/TESTOMEDP100.png",
+      "hoverImage": "../images/DM/TESTOMEDP100back.png",
+      "price": "22,00",
+      "dose": "100mg/ml (10ml)",
+      "description": "TESTOMED P 100 (Testosterone Propionate) is used in men and boys to treat conditions caused by a lack of this hormone, such as delayed puberty or growth. It is only recommended for males with a known medical condition, such as a genetic disorder, problem with certain brain structures (called the hypothalamus and pituitary) or previous chemotherapy."
+    },
+    {
+      "id": "5",
+      "title": "Nandrolone Decanoate",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/DECAMED250.png",
+      "hoverImage": "../images/DM/DECAMED250back.png",
+      "price": "32,00",
+      "dose": "300mg/ml (10ml)",
+      "description": "DECAMED 250 (Nandrolone Decanoate) is used to treat osteoporosis, catabolic states, renal insufficiency to counteract glucocorticoid, suboptimal growth in children, hypoplastic, hemolytic or malignancy-associated anemia, chronic debilitating diseases especially in elderly patients to correct defective protein metabolism."
+    },
+    {
+      "id": "6",
+      "title": "Nandrolone Phenylpropionate",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/DECAMEDPP100.png",
+      "hoverImage": "../images/DM/DECAMEDPP100back.png",
+      "price": "28,00",
+      "dose": "100mg/ml (10ml)",
+      "description": "DECAMED PP 100 (Nandrolone Phenylpropionate) is used to treat osteoporosis, catabolic states, renal insufficiency to counteract glucocorticoid, suboptimal growth in children, hypoplastic, hemolytic or malignancy-associated anemia, chronic debilitating diseases especially in elderly patients to correct defective protein metabolism."
+    },
+    {
+      "id": "7",
+      "title": "Trenbolone Acetate",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "30,00",
+      "dose": "100mg/ml (10ml)",
+      "description": "TRENBOMED A 100 (Trenbolone Acetate) is indicated for the management of the anemia of renal insufficiency and has been shown to increase hemoglobin and red cell mass."
+    },
+    {
+      "id": "8",
+      "title": "Trenbolone Enanthate",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/TRENBOMEDE200.png",
+      "hoverImage": "../images/DM/TRENBOMEDE200back.png",
+      "price": "35,00",
+      "dose": "200mg/ml (10ml)",
+      "description": "TRENBOMED E 200 (Trenbolone Enanthate) is indicated for the management of the anemia of renal insufficiency and has been shown to increase hemoglobin and red cell mass."
+    },
+    {
+      "id": "9",
+      "title": "MASTERON PROPIONATE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "32,00",
+      "dose": "100mg/ml (10ml)",
+      "description": "Description for MASTERON PROPIONATE"
+    },
+    {
+      "id": "10",
+      "title": "MASTERON ENANTHATE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "36,00",
+      "dose": "200mg/ml (10ml)",
+      "description": "Description for MASTERON ENANTHATE"
+    },
+    {
+      "id": "11",
+      "title": "BOLDENONE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "35,00",
+      "dose": "300mg/ml (10ml)",
+      "description": "Description for BOLDENONE"
+    },
+    {
+      "id": "12",
+      "title": "PRIMOBOLAN",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "40,00",
+      "dose": "100mg/ml (10ml)",
+      "description": "Description for PRIMOBOLAN"
+    },
+    {
+      "id": "13",
+      "title": "PRIMOBOLAN",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "80,00",
+      "dose": "200mg/ml (10ml)",
+      "description": "Description for PRIMOBOLAN"
+    },
+    {
+      "id": "14",
+      "title": "TRESTOLONE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "70,00",
+      "dose": "100mg/ml (10ml)",
+      "description": "Description for TRESTOLONE"
+    },
+    {
+      "id": "15",
+      "title": "WATERMED (Bacteriostatic Water)",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/WATERMED1.png",
+      "hoverImage": "../images/DM/WATERMED1back.png",
+      "price": "8,00",
+      "dose": "10ml",
+      "description": "WATERMED (Bacteriostatic Water for Injections) is a sterile, nonpyrogenic preparation of water for injection containing 0.9% (9 mg/mL) of benzyl alcohol added as a bacteriostatic preservative. Bacteriostatic Water for Injections is for diluting or dissolving drugs for intravenous, intramuscular or subcutaneous injection."
+    }
+  ],
+  "oralGH": [],
+  "hghGH": [
+    {
+      "id": "101",
+      "title": "GH SPAIN",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "100,00",
+      "dose": "12iu x10 (120iu)",
+      "description": "Description for GH SPAIN"
+    },
+    {
+      "id": "102",
+      "title": "GENOTROPIN",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "170,00",
+      "dose": "36iu x1",
+      "description": "Description for GENOTROPIN"
+    },
+    {
+      "id": "103",
+      "title": "EVOTROPIN",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "150,00",
+      "dose": "10iu x10",
+      "description": "Description for EVOTROPIN"
+    }
+  ],
+  "injectablesDM": [
+    {
+      "id": "151",
+      "title": "TRESTOLONE ACETATE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "100,00",
+      "dose": "100mg/ml x10",
+      "description": "Description for TRESTOLONE ACETATE"
+    },
+    {
+      "id": "152",
+      "title": "TRESTOLONE ENANTHATE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "100,00",
+      "dose": "100mg/ml x10",
+      "description": "Description for TRESTOLONE ENANTHATE"
+    },
+    {
+      "id": "153",
+      "title": "NANDROLONE (DECA)",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "38,00",
+      "dose": "250mg/ml x10",
+      "description": "Description for NANDROLONE (DECA)"
+    },
+    {
+      "id": "154",
+      "title": "BOLDENONE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "38,00",
+      "dose": "250mg/ml x10",
+      "description": "Description for BOLDENONE"
+    },
+    {
+      "id": "155",
+      "title": "DHB",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "50,00",
+      "dose": "100mg/ml x10",
+      "description": "Description for DHB"
+    },
+    {
+      "id": "156",
+      "title": "PRIMOBOLAN",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "59,00",
+      "dose": "100mg/ml x10",
+      "description": "Description for PRIMOBOLAN"
+    },
+    {
+      "id": "157",
+      "title": "MASTERON ENANTHATE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "50,00",
+      "dose": "200mg/ml x10",
+      "description": "Description for MASTERON ENANTHATE"
+    },
+    {
+      "id": "158",
+      "title": "MASTERON PROPIONATE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "40,00",
+      "dose": "100mg/ml x10",
+      "description": "Description for MASTERON PROPIONATE"
+    },
+    {
+      "id": "159",
+      "title": "TRENBOLONE ACETATE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "41,00",
+      "dose": "100mg/ml x10",
+      "description": "Description for TRENBOLONE ACETATE"
+    },
+    {
+      "id": "160",
+      "title": "TRENBOLONE ENANTHATE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "50,00",
+      "dose": "200mg/ml x10",
+      "description": "Description for TRENBOLONE ENANTHATE"
+    },
+    {
+      "id": "161",
+      "title": "WINSTROL",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "33,00",
+      "dose": "50mg/ml x10",
+      "description": "Description for WINSTROL"
+    },
+    {
+      "id": "162",
+      "title": "BACTERIOSTATIC WATER",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "10,00",
+      "dose": "1ml x10",
+      "description": "Description for BACTERIOSTATIC WATER"
+    }
+  ],
+  "oralDM": [
+    {
+      "id": "201",
+      "title": "CLENOMED 40 (Clenbuterol)",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "11,00",
+      "dose": "40mg x50",
+      "description": "Description for CLENBUTEROL"
+    },
+    {
+      "id": "202",
+      "title": "ANAVAMED 10 (Oxandrolone)",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/ANAVAMED10.png",
+      "hoverImage": "../images/DM/ANAVAMED10back.png",
+      "price": "23,00",
+      "dose": "10mg x50",
+      "description": "Is used as adjunctive therapy to promote weight gain after weight loss following extensive surgery, chronic infections, or severe trauma. Also, this medicine can be used for relief of osteoporosis bone pain and to offset the protein catabolism associated with prolonged administration of corticosteroids."
+    },
+    {
+      "id": "203",
+      "title": "WINSTROL",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "11,00",
+      "dose": "10mg x50",
+      "description": "Description for WINSTROL"
+    },
+    {
+      "id": "204",
+      "title": "TURINABOL",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "17,00",
+      "dose": "10mg x50",
+      "description": "Description for TURINABOL"
+    },
+    {
+      "id": "205",
+      "title": "TAMOXIFENO",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "23,00",
+      "dose": "20mg x50",
+      "description": "Description for TAMOXIFENO"
+    },
+    {
+      "id": "206",
+      "title": "CIALIS",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "20,00",
+      "dose": "5mg x50",
+      "description": "Description for CIALIS"
+    },
+    {
+      "id": "207",
+      "title": "CLOMIFENO",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "21,00",
+      "dose": "50mg x50",
+      "description": "Description for CLOMIFENO"
+    },
+    {
+      "id": "208",
+      "title": "DIANABOL",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "10,00",
+      "dose": "10mg x50",
+      "description": "Description for DIANABOL"
+    },
+    {
+      "id": "209",
+      "title": "PROVIRON",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "23,00",
+      "dose": "25mg x50",
+      "description": "Description for PROVIRON"
+    },
+    {
+      "id": "210",
+      "title": "T325",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "12,00",
+      "dose": "325mg x50",
+      "description": "Description for T325"
+    },
+    {
+      "id": "211",
+      "title": "OSTARINE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "33,00",
+      "dose": "10mg x50",
+      "description": "Description for OSTARINE"
+    },
+    {
+      "id": "212",
+      "title": "ANADROL",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "27,00",
+      "dose": "50mg x50",
+      "description": "Description for ANADROL"
+    },
+    {
+      "id": "213",
+      "title": "EXEMESTANO",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "30,00",
+      "dose": "25mg x25",
+      "description": "Description for EXEMESTANO"
+    },
+    {
+      "id": "214",
+      "title": "ANASTROZOL",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "27,00",
+      "dose": "1mg x50",
+      "description": "Description for ANASTROZOL"
+    }
+  ],
+  "hghDM": [
+    {
+      "id": "251",
+      "title": "MELANOTAN 2",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "30,00",
+      "dose": "2mg x1",
+      "description": "Description for MELANOTAN 2 (DEUS)"
+    },
+    {
+      "id": "252",
+      "title": "HGH",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "190,00",
+      "dose": "12iu x10",
+      "description": "Description for HGH (DEUS)"
+    }
+  ],
+  "pharmacy": [
+    {
+      "id": "301",
+      "title": "EFEDRINA LEVEL",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "20,00",
+      "dose": "50mg x24",
+      "description": "Description for EFEDRINA LEVEL"
+    },
+    {
+      "id": "302",
+      "title": "CENFORCE 100",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "25,00",
+      "dose": "100mg x10",
+      "description": "Description for CENFORCE 100"
+    },
+    {
+      "id": "303",
+      "title": "TAMOXIFENO",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "25,00",
+      "dose": "20mg x60",
+      "description": "Description for TAMOXIFENO"
+    },
+    {
+      "id": "304",
+      "title": "HCG OVITRELLE",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "55,00",
+      "dose": "6500iu",
+      "description": "Description for HCG OVITRELLE"
+    },
+    {
+      "id": "305",
+      "title": "PROVIRON BAYER",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "15,00",
+      "dose": "25mg x20",
+      "description": "Description for PROVIRON BAYER"
+    },
+    {
+      "id": "306",
+      "title": "NEBIMED 5 (Nebivolol)",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/NEBIMED5.png",
+      "hoverImage": "../images/DM/NEBIMED5back.png",
+      "price": "18,00",
+      "dose": "5mg x28",
+      "description": "NEBIMED 5 (Nebivolol) is a beta blocker used to treat high blood pressure and heart failure. As with other β-blockers, it is generally a less preferred treatment for high blood pressure. It may be used by itself or with other blood pressure medication."
+    },
+    {
+      "id": "307",
+      "title": "INSULIN PEN",
+      "analytics": "../images/DM/pdf.png",
+      "image": "../images/DM/CLENOMED40.png",
+      "hoverImage": "../images/DM/CLENOMED40back.png",
+      "price": "12,00",
+      "dose": "300iu",
+      "description": "Description for INSULIN PEN"
+    }
+  ]
+}

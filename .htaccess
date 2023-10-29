@@ -1,0 +1,51 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.html$ /$1 [L,R=301]
+
+
+# Evitar que el archivo .htaccess sea visto y accedido desde el navegador
+<Files .htaccess>
+    Require all denied
+</Files>
+
+# Deshabilitar la lista de directorios
+Options -Indexes
+
+# Prevenir el listado de archivos en directorios no indexados
+IndexIgnore *
+
+# Evitar el acceso directo a los archivos de configuración
+<FilesMatch "^(config.php|db_connect.php)">
+    Require all denied
+</FilesMatch>
+
+# Evitar que los navegadores detecten el tipo de MIME de los archivos
+<IfModule mod_mime.c>
+    RemoveType .php .phtml .php3 .php4 .php5 .cgi .htm .html .xhtml .shtml .xml .rdf .atom .rss .jpg .jpeg .png .gif
+    .bmp .ico .pdf .flv .swf
+</IfModule>
+
+# Bloquear el acceso directo a los archivos .php
+<FilesMatch "\.(php|php3?|phtml)$">
+    Require all denied
+</FilesMatch>
+
+# Bloquear el acceso a ciertos archivos sensibles
+<FilesMatch "(wp-config\.php|phpinfo\.php|readme\.html|license\.txt)">
+    Require all denied
+</FilesMatch>
+
+# Evitar que se muestren mensajes de error en el navegador
+php_flag display_errors off
+
+# Impedir que los archivos .htaccess puedan ser sobrescritos
+<Files .htaccess>
+    Require all denied
+</Files>
+
+# Bloquear el acceso a los archivos de registro del servidor
+<FilesMatch "^(error_log|access_log|php_errorlog)$">
+    Require all denied
+</FilesMatch>
