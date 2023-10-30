@@ -46,8 +46,9 @@ body {
 }
 
 /* Estilo para el título a la izquierda */
-.left h1 {
+.left img {
     margin: 0;
+    width: 80%;
 }
 
 /* Estilo para el número de contacto a la derecha */
@@ -121,6 +122,7 @@ body {
 .sub-menu li {
     margin: 0;
     padding: 10px;
+    width: 100%;
 }
 
 .sub-menu li:hover {
@@ -177,7 +179,6 @@ body {
 
 
 .banner {
-    background-image: url(../images/wallpaper.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--banner-color);
@@ -200,36 +201,16 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2%;
+    padding: 10px;
 
 }
 
-#logobanner {
-    width: 80px;
+.banner ul li img{
+    width: 70%;
 }
 
-#cookieBanner {
-    z-index: 99999;
-    background-color: #f0f0f0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
-}
 
-#acceptButton {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
 
-#acceptButton:hover {
-    background-color: #0056b3;
-}
 
 .footer {
     clear: both;
@@ -266,6 +247,7 @@ body {
 
 .logofooter {
     order: 1;
+    padding: 30px;
 }
 
 .sections-footer {
@@ -286,7 +268,7 @@ body {
 }
 
 .footer-copyright {
-    background-color: var(--background-color);
+    background-color: var(--text-color);
     padding: 15px 30px;
     text-align: center;
 
@@ -295,7 +277,7 @@ body {
 .footer-copyright-link {
     font-size: 13px;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--background-color);
 }
 
 
